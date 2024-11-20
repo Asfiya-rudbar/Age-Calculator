@@ -1,0 +1,92 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e0f7fa; /* Light teal background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    background: linear-gradient(145deg, #2196f3, #21cbf3); /* Blue gradient background */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    animation: fadeIn 1s ease-out;
+}
+
+/* Label Styling */
+label {
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Input Field Styling */
+input[type="date"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s ease;
+    background-color: #ffffff;
+}
+
+input[type="date"]:focus {
+    border-color: #21cbf3;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 25px;
+    background-color: #21cbf3;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2196f3;
+    transform: translateY(-2px);
+}
+
+/* Result Styling */
+#Age {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    animation: fadeIn 1s ease-out;
+}
