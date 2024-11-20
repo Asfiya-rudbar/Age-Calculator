@@ -1,11 +1,9 @@
-/* General Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
     background: #e0f7fa; /* Light teal background */
@@ -16,7 +14,6 @@ body {
     color: #333;
 }
 
-/* Container Styling */
 .container {
     background: linear-gradient(145deg, #2196f3, #21cbf3); /* Blue gradient background */
     border-radius: 15px;
@@ -28,7 +25,6 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* Header Styling */
 header h1 {
     font-size: 2.5em;
     color: white;
@@ -39,7 +35,6 @@ header h1 {
     animation: fadeIn 1s ease-out;
 }
 
-/* Label Styling */
 label {
     font-size: 1.1em;
     color: white;
@@ -47,7 +42,6 @@ label {
     display: block;
 }
 
-/* Input Field Styling */
 input[type="date"] {
     width: 80%;
     padding: 12px;
@@ -64,7 +58,6 @@ input[type="date"]:focus {
     border-color: #21cbf3;
 }
 
-/* Button Styling */
 button {
     padding: 12px 25px;
     background-color: #21cbf3;
@@ -82,7 +75,6 @@ button:hover {
     transform: translateY(-2px);
 }
 
-/* Result Styling */
 #Age {
     margin-top: 20px;
     font-size: 1.5em;
